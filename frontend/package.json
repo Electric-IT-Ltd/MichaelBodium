@@ -1,0 +1,46 @@
+{
+  "name": "michaelbodiam.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@luxdamore/vue-cursor-fx": "^1.5.0",
+    "@nuxtjs/google-fonts": "^1.2.0",
+    "@nuxtjs/sanity": "^0.7.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@sanity/cli": "^2.2.5",
+    "@sanity/client": "^2.1.4",
+    "@sanity/image-url": "^0.140.19",
+    "@videojs/http-streaming": "^2.5.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.2",
+    "fibers": "^5.0.0",
+    "hls.js": "^0.14.17",
+    "lozad": "^1.16.0",
+    "m3u8-parser": "^4.5.2",
+    "nuxt": "^2.14.12",
+    "sanity-blocks-vue-component": "^0.1.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "swiper": "^6.4.8",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-video-player": "^5.0.2",
+    "vue-waypoint": "^3.5.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "postcss": "^7.0.35",
+    "prettier": "^2.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  }
+}
